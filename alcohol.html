@@ -15,6 +15,11 @@
             background-color: rgb(255, 255, 169);
         }
 
+        .mainContianer {
+            display: flex;
+            justify-content: center;
+        }
+
         .navbar-brand {
             font-size: 50px;
             font-weight: lighter;
@@ -22,14 +27,68 @@
 
         .nav-item {
             padding-left: 25px;
-            ;
+
         }
-        .devilPic{
+
+        .devilPicContainer {
             background-color: rgb(255, 255, 203);
-            height:250px;
+            height: 370px;
             width: 1250px;
-            margin-left: 75px;
-            padding:10px;
+            display: flex;
+            align-content: center;
+        }
+
+        .devilPicText {
+            /* font-weight: normal; */
+            /* font-size: 550px; */
+            font-family: "Brush Script MT", cursive;
+            display: flex;
+            align-items: center;
+        }
+
+        .blueBannerDiv {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 60px;
+
+        }
+
+        .blueBanner {
+            background-color: rgb(8, 169, 223);
+            color: white;
+            width: 200px;
+            height: 195px;
+            text-align: center;
+        }
+
+        .archives {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+        }
+
+        .archivesLi {
+            border-bottom: 1px solid gray;
+            margin: 0 auto;
+            padding-bottom: 5px;
+        }
+
+        .content {
+            border-left: double gray;
+
+        }
+        .paraheading{
+            color: rgb(136, 6, 6);
+            display: flex;
+            justify-content: center;
+            border-bottom: 1px solid rgb(44, 33, 33);
+            text-align: center;
+            margin: 50px;
+            padding : 25px;
+            font-size: xx-large;
+            
         }
     </style>
 </head>
@@ -37,8 +96,8 @@
 <body>
     <div>
         <nav class="navbar">
-            <div class="container">
-                <div class="navbar-brand">Alcoholism</div>
+            <div class="container-fluid">
+                <div class="navbar-brand ">Alcoholism</div>
                 <div>
                     <ul class="nav">
                         <li class="nav-item">
@@ -52,13 +111,76 @@
                 </div>
             </div>
         </nav>
-        <div class="container devilPic row">
-            <div col-sm-8>
-                <h1>Alcoholism is the Devil's Masterpiece</h1>
-                <h2>Life with an alcoholic</h2>
+        <div class="mainContianer">
+            <div class="container devilPicContainer row">
+                <div class="devilPicText col-md-6 col-sm-4">
+                    <h1>Alcoholism is the Devil's Masterpiece Life with an alcoholic</h1>
+                    <h2></h2>
+                </div>
+                <div class="col-sm-4">
+                    <img>
+                </div>
             </div>
-            <div col-sm-4>
-                <img>
+        </div>
+        <div class="row">
+            <div class=" col-md-3">
+                <div class="blueBannerDiv">
+                    <div class="blueBanner">
+                        <h2>KEITH ANGLIN</h2>
+                        <h5>Drug And Alcohol Councelor</h5>
+                        <h5>InervetionRX.com</h5>
+                    </div>
+                </div>
+                <div class="archives">
+
+                    <ul>
+                        <h2>ARCHIVES</h2>
+                        <li class="archivesLi">lorem ipsum dolor SIt</li>
+                        <li class="archivesLi">lorem ipsum dolor SIt</li>
+                        <li class="archivesLi">lorem ipsum dolor SIt</li>
+                        <li class="archivesLi">lorem ipsum dolor SIt</li>
+                        <li class="archivesLi">lorem ipsum dolor SIt</li>
+                        <li class="archivesLi">lorem ipsum dolor SIt</li>
+                        <li class="archivesLi">lorem ipsum dolor SIt</li>
+                        <li class="archivesLi">lorem ipsum dolor SIt</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content col-md-9">
+            <div class="paraheading row">
+                <div class="col-md-3">
+                    <h1>25</h1>
+                </div>
+                <div class="col-md-9">
+                    <h1><strong>Introduction</strong></h1>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quae voluptatum. Hic
+                            adipisci expedita consequatur commodi doloribus? Ut id nobis temporibus!</p>
+                    </div>
+                    <div class="col-md-9">
+                        <p>post by Lorem ipsum dolor sit. <span class="p-5"><button>4 comments</button></span></p>
+                        <p class="mr-5 pr-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Maxime a ipsa non necessitatibus modi saepe mollitia iste. Aut
+                            illo corrupti perspiciatis reiciendis commodi quam ipsum maiores
+                            enim esse facere, molestiae nam mollitia doloremque? Deserunt iusto porro iure soluta,
+
+                            officiis suscipit nemo tenetur accusantium debitis, vel, deleniti architecto facere fugit.
+                            Porro numquam tenetur aliquid corporis quibusdam ratione, quos aperiam? Dicta veritatis ex,
+                            modi, at repudiandae
+
+                            asperiores deserunt iste commodi, beatae vero distinctio vitae iusto numquam voluptas nobis!
+                            Qui corporis velit enim
+
+                            eum totam corrupti veniam quas possimus. Rem laborum libero id, ducimus dignissimos delectus
+                            maiores corrupti architecto
+                            aperiam ut nesciunt voluptates!
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
