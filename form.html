@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            display: flex;
+            justify-content: center;
+        }
+        h2,
+        h6,
+        p {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-weight: normal;
+            color: gray;
+        }
+
+        #formDiv {
+            margin-top: 70px;
+            background-color: white;
+            height: auto;
+            width: 425px;
+            padding: 15px;
+            text-align: start;
+          
+        }
+
+        textarea,
+        input {
+            width: 400px;
+            padding: 10px;
+            margin-bottom: 15px;
+          
+        }
+
+        #message {
+            height: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="formDiv">
+        <h2>ColorLib Contact Form</h2>
+        <h6>Contact Us for Custom Quote</h6>
+        <form>
+            <input type="text" id="fname" name="fname" placeholder="your Name"><br>
+            <input type="text" id="fname" name="fname" placeholder="your Email"><br>
+            <input type="text" id="fname" name="fname" placeholder="your Phone Number (Optional)"><br>
+            <input type="text" id="fname" name="fname" placeholder="your Website (Optional)"><br>
+            <textarea id="message" placeholder="Type your message here " row="5"></textarea>
+            <input type="submit" value="Submit" style="background-color: green; border:none; ">
+        </form>
+        <p>Designed by</p> <a href="https://colorlib.com/"> colorlib</a>
+    </div>
+</body>
+
+</html>
