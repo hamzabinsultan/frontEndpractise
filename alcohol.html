@@ -11,8 +11,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <title>Document</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;800&family=Poppins:wght@200;400&display=swap');
+
         body {
             background-color: rgb(255, 255, 169);
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 800;
         }
 
         .mainContianer {
@@ -40,19 +47,24 @@
             height: 370px;
             width: 1250px;
             display: flex;
-            align-content: center;
+            align-items: center;
         }
 
-        .devilPicText {
-           
+        .devilPicText .text {
             /* font-size: 550rem; */
             font-family: Pristina;
             display: flex;
             align-items: center;
+
         }
-        .devilPicText h1{
+
+        .devilPicText .text {
             font-size: 3rem;
-              font-weight:bold;
+            font-weight: bold;
+        }
+
+        .devilPicContainer img {
+            float: right;
         }
 
         .blueBannerDiv {
@@ -100,7 +112,14 @@
             border-bottom: 3px solid rgb(44, 33, 33);
             margin: 50px;
             padding: 25px 0;
-            font-family: 'Playfair Display';
+            font-family: 'Playfair Display', serif;
+
+
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-weight: bolder;
         }
 
         .heading {
@@ -139,16 +158,22 @@
             padding: 0 15px;
             font-size: 20px;
             height: 100px;
-            font-weight: bold;
+            font-weight: normal;
 
         }
 
         .oldPostBtn {
+             position: relative;
+             margin-bottom:  80px;
+             margin-left: 80px;
+        }
+
+        .postBtn {
+            position: absolute;
             height: 50px;
-            width: 100px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            width: 200px;
+            top: 10%;
+            left: 30rem;
         }
     </style>
 </head>
@@ -174,11 +199,11 @@
         <div class="mainContianer">
             <div class="container devilPicContainer row">
                 <div class="devilPicText col-md-6 col-sm-4">
-                    <h1>Alcoholism is the Devil's Masterpiece Life with an alcoholic</h1>
+                    <h1 class="text">Alcoholism is the Devil's Masterpiece Life with an alcoholic</h1>
                     <h2></h2>
                 </div>
                 <div class="col-sm-4">
-                    <img>
+                    <img src="devil_03.jpg">
                 </div>
             </div>
         </div>
@@ -218,11 +243,58 @@
                     </div>
                     <div class="content col-md-9">
                         <div class="paraheading row">
+                            <div class="col-md-9">
+                                <h1 class="heading" style="float:right">Introduction</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="tags col-md-3">
+                                <ul class="tags">
+                                    <li>Tags</li>
+                                    <li>Alcoholism,</li>
+                                    <li>Addiction</li>
+                                    <li>Violence</li>
+                                    <li>Cocaine,Drinkig</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-9">
+                                <p class="postedBy">
+                                    post by Lorem ipsum dolor sit. <span><button>4 comments</button></span>
+                                </p>
+                                <p class="ml-5 pr-5">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Maxime a ipsa non necessitatibus modi saepe mollitia iste. Aut
+                                    illo corrupti perspiciatis reiciendis commodi quam ipsum maiores
+                                    enim esse facere, molestiae nam mollitia doloremque? Deserunt iusto porro iure
+                                    soluta,<br>
+                                    <br><br>
+                                    officiis suscipit nemo tenetur accusantium debitis, vel, deleniti architecto facere
+                                    fugit.
+                                    Porro numquam tenetur aliquid corporis quibusdam ratione, quos aperiam? Dicta
+                                    veritatis ex,
+                                    modi, at repudiandae
+                                    <br><br>
+                                    asperiores deserunt iste commodi, beatae vero distinctio vitae iusto numquam
+                                    voluptas nobis!<br>
+                                    Qui corporis velit enim
+                                    <br><br>
+                                    eum totam corrupti veniam quas possimus. Rem laborum libero id, ducimus dignissimos
+                                    delectus
+                                    maiores corrupti architecto
+                                    aperiam ut nesciunt voluptates!
+                                </p>
+                                <img src="Devil-img.png">
+                            </div>
+                        </div>
+                        <!-- 2nd block -->
+                        <div class="paraheading row">
                             <div class=" date col-md-3">
                                 <h1>25</h1>
                             </div>
                             <div class="col-md-9">
-                                <h1 class="heading">Introduction</h1>
+                                <h1 class="heading " style="text-align: left; font-weight: bolder;font-size: 40px;">The
+                                    Standard Lorum Ipsum Messege used
+                                    since 1500s</h1>
                             </div>
                         </div>
                         <div class="row">
@@ -263,67 +335,22 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- 2nd block -->
-                        <div class="paraheading row">
-                            <div class=" date col-md-3">
-                                <h1>25</h1>
-                            </div>
-                            <div class="col-md-9">
-                                <h1 class="heading " style="text-align: left;">The Standard Lorum Ipsum Messege used
-                                    since 1500s</h1>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="tags col-md-3">
-                                <ul class="tags">
-                                    <li>Tags</li>
-                                    <li>Alcoholism,Addiction</li>
-                                    <li>Violence</li>
-                                    <li>Cocaine,Drinkig</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-9">
-                                <p class="postedBy">
-                                    post by Lorem ipsum dolor sit. <span><button>4 comments</button></span>
-                                </p>
-                                <p class="ml-5 pr-5">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Maxime a ipsa non necessitatibus modi saepe mollitia iste. Aut
-                                    illo corrupti perspiciatis reiciendis commodi quam ipsum maiores
-                                    enim esse facere, molestiae nam mollitia doloremque? Deserunt iusto porro iure
-                                    soluta,<br>
-                                    <br><br>
-                                    officiis suscipit nemo tenetur accusantium debitis, vel, deleniti architecto facere
-                                    fugit.
-                                    Porro numquam tenetur aliquid corporis quibusdam ratione, quos aperiam? Dicta
-                                    veritatis ex,
-                                    modi, at repudiandae
-                                    <br><br>
-                                    asperiores deserunt iste commodi, beatae vero distinctio vitae iusto numquam
-                                    voluptas nobis!<br>
-                                    Qui corporis velit enim
-                                    <br><br>
-                                    eum totam corrupti veniam quas possimus. Rem laborum libero id, ducimus dignissimos
-                                    delectus
-                                    maiores corrupti architecto
-                                    aperiam ut nesciunt voluptates!
-                                </p>
-                            </div>
-                        </div>
                         <!-- 3rd block -->
                         <div class="paraheading row">
                             <div class=" date col-md-3">
                                 <h1>25</h1>
                             </div>
                             <div class="col-md-9">
-                                <h1 class="heading">The Standard Lorem Ipsum Message</h1>
+                                <h1 class="heading" style="text-align: left; font-weight: bolder;font-size: 40px;">The
+                                    Standard Lorem Ipsum Message</h1>
                             </div>
                         </div>
                         <div class="row">
                             <div class="tags col-md-3">
                                 <ul class="tags">
                                     <li>Tags</li>
-                                    <li>Alcoholism,Addiction</li>
+                                    <li>Alcoholism,</li>
+                                    <li>Addiction</li>
                                     <li>Violence</li>
                                     <li>Cocaine,Drinkig</li>
                                 </ul>
@@ -361,9 +388,9 @@
             </div>
         </section>
         <div class="oldPostBtn">
-            <button>
-                <--- Old Post</button>
+            <button class="postBtn"> <--- Old Post</button>
         </div>
+        
         <footer>
             <div class="footer">
                 <p>Copyrights 2021 demolink.com All rights are reserved</p>
