@@ -55,12 +55,47 @@
         left: 35%
     }
     
+    .thirdBlock {
+        position: relative;
+        top: 30%;
+        width: 100%;
+        text-align: center;
+    }
+    
     .benefits {
         display: grid;
-        justify-content: space-evenly;
+        grid-template-columns: 300px 300px 300px;
+        grid-gap: 3rem;
+        justify-content: center;
         align-content: center;
     }
     
-    .benefits .tax {
-        background-color: red;
+    .tax1,
+    .tax2,
+    .tax3 {
+        background-color: rgba(236, 233, 233, 0.822);
+    }
+    
+    .fourthBlock {
+        position: relative;
+        top: 40%;
+        text-align: center;
+    }
+    
+    .fourthBlock img {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .whyLapeira {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.993);
+        opacity: 0.9;
+        height: 500px;
+        width: 1000px;
+        margin: 0 30px;
+        padding: 60px;
     }
