@@ -12,6 +12,18 @@
         background-size: cover;
     }
     
+    .nav-item {
+        margin-left: 45px;
+    }
+    
+    .nav-item a {
+        color: black;
+    }
+    
+    .nav-item a:hover {
+        color: goldenrod;
+    }
+    
     .container {
         display: flex;
         justify-content: space-evenly;
@@ -98,4 +110,86 @@
         width: 1000px;
         margin: 0 30px;
         padding: 60px;
+    }
+    
+    .fifthBlock {
+        position: relative;
+        top: 70%;
+        display: grid;
+        grid-template-columns: 900px 600px;
+        grid-gap: 80px;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .videoBlock {
+        text-align: left;
+    }
+    
+    .video-div {
+        display: grid;
+        grid-template-columns: 200px 100px;
+        grid-column-gap: 5px;
+    }
+    
+    .videoContentList {
+        list-style-type: none;
+    }
+    
+    .form {
+        background-color: rgb(23, 23, 41);
+        height: 1028px;
+        width: 500px;
+        color: white;
+        text-align: center;
+        padding: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .inputsection {
+        background-color: rgb(106, 106, 131);
+        border: none;
+        border-radius: 5px;
+        padding: 19px 10px;
+        width: 90%;
+        margin: 15px;
+    }
+    
+     ::placeholder {
+        color: rgb(78, 68, 68);
+    }
+    
+    footer {
+        background-color: rgb(12, 12, 39);
+        position: relative;
+        top: 80%;
+    }
+    
+    .upperFooter {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 390px 50px 390px;
+        color: rgba(180, 167, 167, 0.945);
+        text-align: left;
+    }
+    
+    .upperFooter ul {
+        list-style-type: none;
+    }
+    
+    .upperFooter ul li {
+        margin-bottom: 15px;
+    }
+    
+    footer h3 {
+        color: white;
+    }
+    
+    .lowerFooter {
+        border-top: 1px solid gray;
+        color: rgba(180, 167, 167, 0.945);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
     }
