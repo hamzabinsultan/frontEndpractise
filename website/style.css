@@ -1,0 +1,66 @@
+    body,
+    html {
+        height: 100%;
+        margin: 0;
+    }
+    
+    .firstBlock {
+        background-image: url("family.png");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .welcomeParent {
+        display: grid;
+        grid-auto-flow: column;
+        gap: 4px;
+        align-content: center;
+        justify-items: center;
+    }
+    
+    .welcome {
+        text-align: left;
+        margin-top: 15%;
+        font-size: larger;
+    }
+    
+    .welcome button {
+        border: none;
+        background-color: rgb(167, 141, 27);
+        color: white;
+        height: 50px;
+        width: 200px;
+    }
+    
+    .secondBlock {
+        position: relative;
+    }
+    
+    .about {
+        background-color: rgb(35, 32, 66);
+        color: white;
+        width: 50%;
+        height: 530px;
+        text-align: left;
+        padding: 90px 50px;
+        position: absolute;
+        top: 35%;
+        left: 35%
+    }
+    
+    .benefits {
+        display: grid;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    
+    .benefits .tax {
+        background-color: red;
+    }
