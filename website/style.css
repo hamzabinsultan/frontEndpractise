@@ -4,6 +4,12 @@
         margin: 0;
     }
     
+    ul {
+        /* li has default padding and margin from left and bottom so we need to set it zero when ever we start making website*/
+        padding: 0;
+        margin: 0;
+    }
+    
     .firstBlock {
         background-image: url("family.png");
         height: 100%;
@@ -22,11 +28,6 @@
     
     .nav-item a:hover {
         color: goldenrod;
-    }
-    
-    .container {
-        display: flex;
-        justify-content: space-evenly;
     }
     
     .welcomeParent {
@@ -53,18 +54,23 @@
     
     .secondBlock {
         position: relative;
+        height: auto;
+    }
+    
+    .skyImg {
+        width: 100%;
     }
     
     .about {
         background-color: rgb(35, 32, 66);
         color: white;
-        width: 50%;
-        height: 530px;
+        width: 100%;
+        height: auto;
         text-align: left;
-        padding: 90px 50px;
+        padding: 210px 50px;
         position: absolute;
-        top: 35%;
-        left: 35%
+        top: 10%;
+        right: 10%;
     }
     
     .thirdBlock {
@@ -74,18 +80,26 @@
         text-align: center;
     }
     
+    .thirdBlockHeading h5 {
+        color: goldenrod;
+        margin-top: 30px;
+    }
+    
     .benefits {
         display: grid;
         grid-template-columns: 300px 300px 300px;
         grid-gap: 3rem;
         justify-content: center;
         align-content: center;
+        padding: 50px;
     }
     
     .tax1,
     .tax2,
     .tax3 {
         background-color: rgba(236, 233, 233, 0.822);
+        margin: 20px;
+        padding: 20px 40px;
     }
     
     .fourthBlock {
@@ -166,20 +180,17 @@
     }
     
     .upperFooter {
-        display: flex;
-        justify-content: space-around;
-        padding: 20px 390px 50px 390px;
         color: rgba(180, 167, 167, 0.945);
         text-align: left;
+        margin-left: 15%;
+        padding-top: 30px;
     }
     
     .upperFooter ul {
         list-style-type: none;
     }
     
-    .upperFooter ul li {
-        margin-bottom: 15px;
-    }
+    .upperFooter ul li {}
     
     footer h3 {
         color: white;
