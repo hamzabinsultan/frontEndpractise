@@ -18,9 +18,12 @@
         background-size: cover;
     }
     
+    .navItems {
         position: relative;
         left: 30%;
+    }
     
+    .nav-item button {
         border: none;
         background-color: goldenrod;
         padding: 15px;
@@ -143,8 +146,38 @@
         text-align: left;
     }
     
+    .videoHeading {
+        padding: 20px;
+    }
+    
+    .videoHeading h3 h1 {
+        font-size: 70px;
+    }
+    
+    .video-img {
+        position: relative;
+    }
+    
+    .video-img .icon i {
+        position: absolute;
+        bottom: 50px;
+        left: 130px;
+        color: goldenrod;
+        background-color: white;
+        border-radius: 50%;
+        padding: 18px 20px;
+        font-size: 21px;
+        opacity: 0.7;
+    }
+    
     .video-img img {
         width: 100%;
+    }
+    
+    .videoContent h4 {
+        color: goldenrod;
+        font-size: 20px;
+        padding-top: 30px;
     }
     
     .videoContentList {
@@ -159,7 +192,6 @@
         text-align: center;
         padding: 40px;
         margin-bottom: 20px;
-        padding: 0 0 0 60px;
     }
     
     .inputsection {
@@ -192,8 +224,6 @@
         list-style-type: none;
     }
     
-    .upperFooter ul li {}
-    
     footer h3 {
         color: white;
     }
@@ -212,4 +242,5 @@
         justify-content: center;
         align-items: center;
         padding-top: 30px;
+        text-align: center;
     }
