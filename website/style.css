@@ -18,6 +18,14 @@
         background-size: cover;
     }
     
+        position: relative;
+        left: 30%;
+    
+        border: none;
+        background-color: goldenrod;
+        padding: 15px;
+    }
+    
     .nav-item {
         margin-left: 45px;
     }
@@ -28,14 +36,6 @@
     
     .nav-item a:hover {
         color: goldenrod;
-    }
-    
-    .welcomeParent {
-        display: grid;
-        grid-auto-flow: column;
-        gap: 4px;
-        align-content: center;
-        justify-items: center;
     }
     
     .welcome {
@@ -65,12 +65,18 @@
         background-color: rgb(35, 32, 66);
         color: white;
         width: 100%;
-        height: auto;
+        max-width: 100%;
+        height: 690px;
         text-align: left;
-        padding: 210px 50px;
+        padding: 150px 50px;
         position: absolute;
-        top: 10%;
+        top: 20%;
         right: 10%;
+    }
+    
+    .about button {
+        border: none;
+        padding: 12px;
     }
     
     .thirdBlock {
@@ -110,7 +116,7 @@
     
     .fourthBlock img {
         width: 100%;
-        height: 500px;
+        height: 700px;
     }
     
     .whyLapeira {
@@ -124,26 +130,21 @@
         width: 1000px;
         margin: 0 30px;
         padding: 60px;
+        line-height: 33px;
     }
     
     .fifthBlock {
         position: relative;
         top: 70%;
-        display: grid;
-        grid-template-columns: 900px 600px;
-        grid-gap: 80px;
-        justify-content: center;
-        align-content: center;
+        left: 20%;
     }
     
     .videoBlock {
         text-align: left;
     }
     
-    .video-div {
-        display: grid;
-        grid-template-columns: 200px 100px;
-        grid-column-gap: 5px;
+    .video-img img {
+        width: 100%;
     }
     
     .videoContentList {
@@ -158,6 +159,7 @@
         text-align: center;
         padding: 40px;
         margin-bottom: 20px;
+        padding: 0 0 0 60px;
     }
     
     .inputsection {
@@ -183,7 +185,7 @@
         color: rgba(180, 167, 167, 0.945);
         text-align: left;
         margin-left: 15%;
-        padding-top: 30px;
+        padding: 60px;
     }
     
     .upperFooter ul {
@@ -194,6 +196,13 @@
     
     footer h3 {
         color: white;
+    }
+    
+    .newsLetter button {
+        background-color: goldenrod;
+        border: none;
+        height: 30px;
+        width: 30px;
     }
     
     .lowerFooter {
