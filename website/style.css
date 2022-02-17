@@ -18,6 +18,11 @@
         background-size: cover;
     }
     
+    .navbar {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
     .navItems {
         position: relative;
         left: 30%;
@@ -30,7 +35,7 @@
     }
     
     .nav-item {
-        margin-left: 45px;
+        margin-left: 25px;
     }
     
     .nav-item a {
@@ -138,12 +143,13 @@
     
     .fifthBlock {
         position: relative;
-        top: 70%;
-        left: 20%;
+        top: 60%;
     }
     
     .videoBlock {
         text-align: left;
+        border-right: 1px dashed goldenrod;
+        padding-right: 50px;
     }
     
     .videoHeading {
@@ -184,7 +190,7 @@
         list-style-type: none;
     }
     
-    .form {
+    .form-child {
         background-color: rgb(23, 23, 41);
         height: 1028px;
         width: 500px;
@@ -192,6 +198,7 @@
         text-align: center;
         padding: 40px;
         margin-bottom: 20px;
+        margin-left: 60px;
     }
     
     .inputsection {
@@ -199,8 +206,8 @@
         border: none;
         border-radius: 5px;
         padding: 19px 10px;
-        width: 90%;
-        margin: 15px;
+        width: 100%;
+        margin: 13px;
     }
     
      ::placeholder {
@@ -216,8 +223,32 @@
     .upperFooter {
         color: rgba(180, 167, 167, 0.945);
         text-align: left;
-        margin-left: 15%;
         padding: 60px;
+    }
+    
+    .footerItem {
+        margin: 0 -5px;
+    }
+    
+    .footerItem input {
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        padding: 7px;
+        width: 100%;
+    }
+    
+    .footerItem button {
+        background-color: #a18951;
+        border: none;
+        /* outline: none; */
+        border-radius: 5px;
+        position: absolute;
+        padding: 1px 7px;
+        right: 10px;
+        height: 38px;
+        width: 40px;
     }
     
     .upperFooter ul {
@@ -227,13 +258,11 @@
     footer h3 {
         color: white;
     }
-    
-    .newsLetter button {
+    /* .newsLetter button {
         background-color: goldenrod;
         border: none;
-        height: 30px;
-        width: 30px;
-    }
+      
+    } */
     
     .lowerFooter {
         border-top: 1px solid gray;
