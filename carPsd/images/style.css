@@ -1,0 +1,99 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+ul {
+    /* li has default padding and margin from left and bottom so we need to set it zero when ever we start making website*/
+    padding: 0;
+    margin: 0;
+}
+
+i.fa.fa-search {
+    position: relative;
+    right: 35px;
+}
+
+.header {
+    background-color: rgb(36, 36, 49);
+    background-size: cover;
+}
+
+.specific {
+    max-width: 87%;
+}
+
+.firstBlock {
+    background-image: url("frontImg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome {
+    text-align: left;
+    margin-top: 15%;
+    padding-right: 355px;
+    padding-left: 154px;
+    font-size: larger;
+}
+
+.welcome h1 {
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+.welcome button {
+    background-color: goldenrod;
+    padding: 11px 25px;
+    border-radius: 6px;
+    border: none;
+    color: aliceblue;
+}
+
+.searchBlock {
+    margin-top: 52;
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form.searchForm {
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    margin-left: 171px;
+}
+
+.searchForm input select {
+    padding: 10px;
+}
+
+.redCarImg img {
+    width: 100%;
+    position: absolute;
+    top: -15px;
+    z-index: -1;
+}
+
+.redCarImg h1 {
+    color: black;
+    font-weight: bolder;
+    font-size: 65px;
+    margin: 200px 0 0 50px;
+}
+
+.products {
+    position: absolute;
+    top: 140%;
+}
+
+.card {
+    width: 800px;
+    height: 666px;
+    background-color: #cac3c3;
+}

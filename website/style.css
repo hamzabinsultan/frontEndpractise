@@ -18,6 +18,10 @@
         background-size: cover;
     }
     
+    ul.nav {
+        align-items: center;
+    }
+    
     .navbar {
         display: flex;
         flex-wrap: nowrap;
