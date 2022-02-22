@@ -1,0 +1,406 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+ul {
+    /* li has default padding and margin from left and bottom so we need to set it zero when ever we start making website*/
+    padding: 0;
+    margin: 0;
+}
+
+i.fa.fa-search {
+    position: relative;
+    right: 35px;
+}
+
+.header {
+    background-color: rgb(40 10 22);
+    background-size: cover;
+}
+
+.headerLogo {
+    font-size: small;
+}
+
+nav.navbar.navbar-expand-sm {
+    margin-left: 101px;
+}
+
+a.navbar-brand {
+    margin-left: -21rem;
+}
+
+.specific {
+    max-width: 100%;
+}
+
+.firstBlock {
+    background-image: url("frontImg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome {
+    text-align: left;
+    margin-top: 9%;
+    padding-right: 355px;
+    padding-left: 154px;
+    font-size: larger;
+}
+
+.welcome h1 {
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+.welcome button {
+    background-color: goldenrod;
+    padding: 11px 25px;
+    border-radius: 6px;
+    border: none;
+    color: aliceblue;
+}
+
+.searchBlock {
+    margin-top: 11rem;
+    margin-left: -18rem;
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 106rem;
+    padding: 1rem;
+}
+
+.searchBlock .text h1 {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.searchBlock .text {
+    margin-left: -4rem;
+}
+
+.searchBlock .row {
+    margin-left: 1rem;
+}
+
+.firstInput input {
+    padding: 12px;
+    border-radius: 5px;
+    width: 23rem;
+}
+
+.secondInput input {
+    margin-left: -9rem;
+    padding: 12px;
+    border-radius: 5px;
+    width: 23rem;
+}
+
+.select select {
+    padding: 13px;
+    margin-left: -2rem;
+    width: 17rem;
+    border-radius: 5px;
+}
+
+.OR p {
+    margin-left: 100px;
+}
+
+i.fa.fa-search.searchIcon {
+    margin-left: 4rem;
+}
+
+.searchBlockBtn {
+    margin-left: 1rem;
+    padding: 4px;
+    background-color: goldenrod;
+    width: 7rem;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.secondSection {
+    margin-top: 10rem;
+}
+
+.secondSectionChild.text h1 {
+    color: black;
+    font-weight: bolder;
+    font-size: 65px;
+    margin: 150px 0 0 50px;
+}
+
+.card-deck {
+    width: 100rem;
+    margin-left: -17rem;
+}
+
+.card-title {
+    font-weight: bolder;
+}
+
+.card {
+    height: 666px;
+    background-color: #e9ecef;
+}
+
+.card-body img {
+    width: 12rem;
+    height: 18rem;
+}
+
+.aboutSectionChild {
+    margin-top: 5rem;
+}
+
+
+/* .aboutSection img {
+    width: 100%;
+
+} */
+
+p.card-text.discountDiv {
+    background-color: darkgoldenrod;
+    color: white;
+    width: 5rem;
+    border-radius: 9px;
+    padding: 6px;
+}
+
+p.card-text.price {
+    color: goldenrod;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+a.shopNowBtn {
+    border: 1px solid;
+    padding: 7px;
+    border-radius: 11px;
+}
+
+.aboutCar {
+    margin: 2rem 0 0 -27rem;
+}
+
+.aboutText {
+    margin: -18rem;
+    margin-top: 13rem;
+    margin-left: 2rem;
+}
+
+.qtytaRow.row {
+    margin: 4rem 0 0 0;
+}
+
+.qtyta h1 {
+    margin: 0 0 0 -23rem;
+    font-weight: bolder;
+}
+
+.qtytaText {
+    width: 55rem;
+}
+
+.modelsSection {}
+
+.azeera {
+    margin: 0 0 0 -23rem;
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+}
+
+.elantra {
+    /* -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent); */
+}
+
+.brands {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hanon {
+    margin: 0 0 0 -11rem;
+    background-color: #e1e8ed;
+    padding: 4rem;
+    width: 25rem;
+    height: 14rem;
+}
+
+.vando {
+    background-color: #e1e8ed;
+    margin: 0px 0 0 -23rem;
+    padding: 4rem;
+    width: 25rem;
+    height: 14rem;
+}
+
+.hab {
+    background-color: #e1e8ed;
+    padding: 5rem;
+    width: 25rem;
+    height: 14rem;
+}
+
+.doowon {
+    background-color: #e1e8ed;
+    padding: 6rem 24px;
+    margin: 0 0 0 10rem;
+    width: 25rem;
+    height: 14rem;
+}
+
+footer {
+    background-color: rgb(40 10 22);
+    color: white;
+    height: 50rem;
+}
+
+footer h1 {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.footerLogo {
+    margin: 0 0 0 -26rem;
+}
+
+.newsletter {
+    margin-left: -24rem;
+}
+
+.footerInput input[type="text"] {
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 42rem;
+    background-color: #582e3e;
+    border: none;
+    margin-left: -5rem;
+}
+
+.participationButton button {
+    color: white;
+    margin-left: 15rem;
+    padding: 12px;
+    border-radius: 1rem;
+    width: 15rem;
+    background-color: goldenrod;
+}
+
+.footerUpper {
+    padding-top: 7rem;
+    border-bottom: 1px solid goldenrod;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.footerMiddle {
+    margin-top: 6rem;
+}
+
+.footerLogoIcons i {
+    margin-left: 1rem;
+    background-color: white;
+    color: #d6b2b2;
+    padding: 1rem;
+    opacity: 0.3;
+    font-size: 2rem;
+    border-radius: 50%;
+}
+
+.quickLinks {
+    margin-left: -10rem;
+    line-height: 30px;
+}
+
+.bank {
+    margin-left: 23rem;
+}
+
+.bank .row {
+    flex-flow: row;
+}
+
+.certified {
+    margin-left: 12rem;
+}
+
+.followUs {
+    margin-left: 2rem;
+    line-height: 47px;
+}
+
+.followUs li i {
+    margin-right: 10px;
+    background-color: white;
+    color: rgb(155, 147, 130);
+    padding: 10px;
+    border-radius: 50%;
+    opacity: 0.3;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* .transactionLogo2,
+.transactionLogo3,
+.transactionLogo4 */
+
+.transactionLogo1 {
+    margin-left: 0rem;
+    background-color: white;
+    width: 3rem;
+    border-radius: 5px;
+    padding: 9px;
+    height: 3rem;
+}
+
+.transactionLogo2 {
+    margin-left: 3rem;
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.transactionLogo3 {
+    margin-left: 5rem;
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.transactionLogo4 {
+    margin-left: 7rem;
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.footerLower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    border-top: 1px solid goldenrod;
+    padding-top: 1rem;
+}
